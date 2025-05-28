@@ -18,7 +18,7 @@ public class PrimeiroMetodo {
         System.out.print("O curso que você deseja é o: ");
         Integer posicaoCursoEscolhido = scanner.nextInt();
 
-        Boolean posicaoValida = posicaoCursoEscolhido >= 0 && posicaoCursoEscolhido < cursos.length;
+        Boolean posicaoValida = verificaCondicao(posicaoCursoEscolhido, cursos);
 
         naoPode(posicaoValida);
 
@@ -35,8 +35,7 @@ public class PrimeiroMetodo {
         System.out.print("Sua forma de pagamento escolhida é: ");
         Integer posicaoFormaPagamentoEscolhida = scanner.nextInt();
 
-        posicaoValida = posicaoFormaPagamentoEscolhida >= 0
-                && posicaoFormaPagamentoEscolhida < formasPagamento.length;
+        posicaoValida = verificaCondicao(posicaoFormaPagamentoEscolhida, formasPagamento);
 
         naoPode(posicaoValida);
 
@@ -54,6 +53,10 @@ public class PrimeiroMetodo {
             System.err.println("Posição inválida!");
             System.exit(1);
         }
+    }
+    public static Boolean verificaCondicao(Integer posicao, String[] vetor){
+        Boolean valida = posicao >= 0 && posicao < vetor.length;
+        return valida;
     }
 
     static void imprimirTraco() {
