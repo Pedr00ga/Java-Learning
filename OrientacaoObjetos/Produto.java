@@ -11,6 +11,7 @@ public class Produto {
         System.out.println("O produto: " + nome + " tem o valor de: " + valor +
                 " Existe em estoque: " + quantidade + " unidade(s).");
     }
+
     public void verificaEstqoue(){
         boolean verificaEstoqueMinimo = quantidade < estoqueMinimo;
         if(verificaEstoqueMinimo){
@@ -19,5 +20,6 @@ public class Produto {
         }else{
             System.out.println("O estoque de " + nome + " não precisa de respoição");
         }
+
     }
 }
