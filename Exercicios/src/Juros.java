@@ -1,3 +1,5 @@
+package Exercicios.src;
+
 import java.util.Scanner;
 
 public class Juros {
