@@ -8,6 +8,8 @@ public class Main {
         cachorro cachorro = new cachorro();
         cachorro.proprietario = new pessoa();
 
+        cachorro.valorConsulta = 200;
+
         System.out.print("Digite o nome do cachorro: ");
         cachorro.nome = scanner.nextLine();
         System.out.print("Digite o idade do cachorro: ");
@@ -24,9 +26,11 @@ public class Main {
         if (encaminhamento) {
             System.out.println(cachorro.proprietario.nome + " Favor se encaminhar para a sala do pediatra com o "
                     + cachorro.nome);
+            System.out.println("O valor da sua consulta é de: " + cachorro.calculaValorConsulta());
         }else{
-            System.out.println(cachorro.proprietario.nome + "Favor se encaminhar para a sala 5 com o "
+            System.out.println(cachorro.proprietario.nome + " Favor se encaminhar para a sala 5 com o "
                     + cachorro.nome);
+            System.out.println("O valor da sua consulta é de: " + cachorro.calculaValorConsulta());
         }
     }
 }
