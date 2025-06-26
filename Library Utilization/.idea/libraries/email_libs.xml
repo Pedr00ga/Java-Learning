@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="email libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/commons-email2-core-2.0.0-M1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javax.mail.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

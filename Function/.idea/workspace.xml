@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85095637-b650-4d20-8341-b450a969030a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Libs/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Libs/src/main/java/org/example/SimpleMailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Function w inputs/Function w inputs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Function.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrientacaoObjetos/src/dadosPedidos/Pedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OrientacaoObjetos/src/dadosPedidos/Pedidos.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2yHsytPwQUDXQ69XoKiiqy1ynGD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "last_opened_file_path": "C:/Users/plgon/Documents/Java Estudos/Java-Learning/Function",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85095637-b650-4d20-8341-b450a969030a" name="Changes" comment="" />
+      <created>1749503091023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749503091023</updated>
+      <workItem from="1749503092682" duration="15000" />
+    </task>
+    <servers />
+  </component>
+</project>

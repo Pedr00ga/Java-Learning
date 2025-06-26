@@ -1,4 +1,6 @@
-package OrientacaoObjetos.src.dadosPedidos;
+package dadosPedidos;
+
+import OrientacaoObjetos.src.dadosPedidos.Pedidos;
 
 public class controlePedidos {
     public static void main(String[] args) {

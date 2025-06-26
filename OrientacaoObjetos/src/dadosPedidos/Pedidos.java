@@ -7,10 +7,12 @@ public class Pedidos {
     double total;
 
     public double getTotal() {
+
         return total = this.subTotal - ((this.subTotal * this.desconto) / 100);
     }
 
     public int getCodigo() {
+
         return codigo;
     }
 
