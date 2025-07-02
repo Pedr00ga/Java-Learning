@@ -10,7 +10,7 @@ public class Aeronave {
        int totalAssentosDisponvieis = totalAssentos - assentosReservados;
        return totalAssentosDisponvieis;
     }
-    
+     
     void reservarAssentos(int numeroAssentos){
         if (ativo){
             assentosReservados += numeroAssentos;
